@@ -1,0 +1,22 @@
+sudo: false
+language: go
+
+go:
+  - 1.7
+  - tip
+
+cache:
+  directories:
+    - vendor
+
+before_install:
+  - mkdir -p $GOPATH/bin
+  - curl https://glide.sh/get | sh
+
+install:
+  - make bundle
+
+script:
+  - make clean
+  - make test
+  - make dist

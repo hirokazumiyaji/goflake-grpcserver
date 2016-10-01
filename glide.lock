@@ -1,0 +1,31 @@
+hash: cbeec39d29b08a28b79e63ef3464f3aa00088c936030c973f50c85b9f04a7b0c
+updated: 2016-10-01T21:25:28.13771849+09:00
+imports:
+- name: github.com/golang/protobuf
+  version: df1d3ca07d2d07bba352d5b73c4313b4e2a6203e
+  subpackages:
+  - proto
+- name: github.com/hirokazumiyaji/goflake
+  version: 64137dd13c98a518ff6c8b8f24adca4231565e37
+- name: golang.org/x/net
+  version: 0d8126fc6144eb5257485c59148128691e8ff849
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: google.golang.org/grpc
+  version: c2983be903f6966c83c6ea86ba74df0b7cc882cd
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - transport
+testImports: []

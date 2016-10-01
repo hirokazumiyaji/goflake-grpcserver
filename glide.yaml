@@ -1,0 +1,4 @@
+package: github.com/hirokazumiyaji/goflake-grpcserver
+import:
+- package: github.com/hirokazumiyaji/goflake
+- package: google.golang.org/grpc
